@@ -1,0 +1,90 @@
+.heading{
+    background-color: #25efef;
+    font-size:20px;
+    margin-top: 0px;
+    padding:10px;
+    box-shadow:5px 5px 20px purple;   
+}
+
+.heading2{
+    font-size:15px;
+    color:rgb(95, 84, 84);
+}
+
+#footer{
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    width:100%;
+    background-color:lightgreen;
+}
+
+canvas{
+    box-shadow: -5px -5px 20px green;
+    border-radius: 10px;
+    border:5px groove black;
+}
+
+video{
+    border:5px groove black;
+    padding:0px;
+    border-radius:10px;
+    transition:transform 1.5s;
+}
+video:hover{
+    transform:translate(30px,20px);
+}
+
+#circlediv{
+background-color: greenyellow;
+width:200px;
+height:200px;
+border-radius:100px;
+animation-name: animation1;
+animation-duration:4s;
+animation-iteration-count: infinite; 
+position:relative;
+}
+
+@keyframes animation1{
+    0%{
+        background-color: purple;
+        top:10px;
+        right:50px;
+    }
+    50%{
+        background-color: rgb(18, 79, 222);
+        top:215px;
+        left:50px;
+    }
+    100%{
+        background-color: rgb(226, 21, 21);
+        top:10px;
+        right:50px;
+    }
+}
+
+@keyframes animation2{
+    0%{
+        background-color: purple;
+ 
+    }
+    50%{
+        background-color: rgb(18, 79, 222);
+       
+    }
+    100%{
+        background-color: rgb(226, 21, 21);
+ 
+    }
+}
+
+#h3div{
+    border:10px solid salmon;
+    border-radius: 10px;
+    transition:transform 1.5s;
+}
+
+#h3div:hover{
+    transform:rotateX(180deg);
+}
